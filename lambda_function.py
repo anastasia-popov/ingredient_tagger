@@ -33,7 +33,7 @@ def lambda_handler(event, context):
     runtime = boto3.Session().client('sagemaker-runtime')
 
     # Now we use the SageMaker runtime to invoke our endpoint
-    response = runtime.invoke_endpoint(EndpointName = # The name of the endpoint we created
+    response = runtime.invoke_endpoint(EndpointName = # The name of the endpoint to call
                                        ContentType = 'text/json',                 
                                        Body = json.dumps(ingr_strings).encode('utf-8'))
 
