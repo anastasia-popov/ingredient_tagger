@@ -2,7 +2,7 @@
 
 ## Project Definition
 
-Ingredient Tagger is a capstone project for Udacity Machine Learning Engineer Nanodegree. It is a service for tagging ingredient name, quantity and units in ingredient phrased commonly seen in the cooking recipes. Full description of the project can be found [here]('Capstone Project Report.pdf')
+Ingredient Tagger is a capstone project for Udacity Machine Learning Engineer Nanodegree. It is a service for tagging ingredient name, quantity and units in ingredient phrased commonly seen in the cooking recipes. Full description of the project can be found [here](Capstone_Project_Report.pdf).
 
 
 ## Application
@@ -22,7 +22,8 @@ The project is developed for AWS, and can be deployed using AWS SageMaker, Lambd
  - creat IAM role for the Lambda function with SageMaker access
  - set up a Lambda function with the code from the lambda_function.py file as a handler. Make sure it is edited, so that it calls the newly created endpoint
  - set up an AWS API Gateway for a public access to the service
- - the notebook for different model evaluation (Model_Selection.ipynb) can be run on Gooogle Colab or a machine with GPU.
+ 
+The notebook for different model evaluation (Model_Selection.ipynb) can be run on Gooogle Colab or a machine with GPU.
 
 ### Dependencies:
  Models are developed in Pytorch, other dependencies are listed in the [requrements.txt](source/requirements.txt) file
